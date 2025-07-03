@@ -1,35 +1,8 @@
-import terratorch
-
 from terratorch.tasks import SemanticSegmentationTask
 import torch
 import torchmetrics
-import os
-import numpy as np
-from PIL import Image
-import matplotlib.pyplot as plt
-from pathlib import Path
-import pandas as pd
-import albumentations
 import pytorch_lightning as pl
-from pytorch_lightning.callbacks import ModelCheckpoint
-from pytorch_lightning.loggers import TensorBoardLogger
-from datasets import load_dataset
-
-
 import torch
-import numpy as np
-from PIL import Image
-from pathlib import Path
-import pandas as pd
-import albumentations as A
-from albumentations.pytorch import ToTensorV2
-from torch.utils.data import Dataset
-
-import gc
-from collections import Counter
-
-from torch.utils.checkpoint import checkpoint
-import torch.nn as nn
 
 class FloodRiskModel(pl.LightningModule):
     def __init__(self, num_classes=2, tim=["S1RTC","DEM","LULC","NDVI"]):

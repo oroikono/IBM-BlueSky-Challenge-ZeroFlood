@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+type: software
+title: 'ZeroFlood: IBM BlueSky Challenge project'
+message: If you build on the ZeroFlood research, please cite the related paper below.
+  For software reuse, also credit the implementation and its contributors.
+authors:
+- name: ZeroFlood contributors
+repository-code: https://github.com/oroikono/IBM-BlueSky-Challenge-ZeroFlood
+keywords:
+- flood hazard mapping
+- synthetic aperture radar
+- geospatial foundation models
+- Earth observation
+- remote sensing
+preferred-citation:
+  type: article
+  title: 'ZeroFlood: Flood Hazard Mapping from Single-Modality SAR Using Geo-Foundation
+    Models'
+  authors:
+  - family-names: Kim
+    given-names: Hyeongkyun
+  - family-names: Oikonomou
+    given-names: Orestis
+  year: 2025
+  date-published: '2025-10-27'
+  journal: arXiv
+  doi: 10.48550/arXiv.2510.23364
+  url: https://arxiv.org/abs/2510.23364v2
+  notes: First submitted to arXiv on 27 October 2025; this citation links to v2, revised
+    30 March 2026. No EUSAR proceedings DOI is asserted.
